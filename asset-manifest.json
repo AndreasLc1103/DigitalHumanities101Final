@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/DigitalHumanities101Final/static/css/main.a617e044.chunk.css",
+    "main.js": "/DigitalHumanities101Final/static/js/main.50ee304c.chunk.js",
+    "main.js.map": "/DigitalHumanities101Final/static/js/main.50ee304c.chunk.js.map",
+    "runtime-main.js": "/DigitalHumanities101Final/static/js/runtime-main.bd73b859.js",
+    "runtime-main.js.map": "/DigitalHumanities101Final/static/js/runtime-main.bd73b859.js.map",
+    "static/js/2.bce49506.chunk.js": "/DigitalHumanities101Final/static/js/2.bce49506.chunk.js",
+    "static/js/2.bce49506.chunk.js.map": "/DigitalHumanities101Final/static/js/2.bce49506.chunk.js.map",
+    "static/js/3.8873553b.chunk.js": "/DigitalHumanities101Final/static/js/3.8873553b.chunk.js",
+    "static/js/3.8873553b.chunk.js.map": "/DigitalHumanities101Final/static/js/3.8873553b.chunk.js.map",
+    "index.html": "/DigitalHumanities101Final/index.html",
+    "static/css/main.a617e044.chunk.css.map": "/DigitalHumanities101Final/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.bce49506.chunk.js.LICENSE.txt": "/DigitalHumanities101Final/static/js/2.bce49506.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/DigitalHumanities101Final/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd73b859.js",
+    "static/js/2.bce49506.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.50ee304c.chunk.js"
+  ]
+}
