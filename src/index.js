@@ -2,11 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import PoemCard from './Components/PoemViewer/PoemCard';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PoemCard id="0" title="Amazing Spiderman" data="01/01/2021" />
   </React.StrictMode>,
   document.getElementById('root')
 );
