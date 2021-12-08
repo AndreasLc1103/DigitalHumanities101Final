@@ -1,24 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import PoemCard from './Components/PoemViewer/PoemCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+      < PoemCard id="1" title="Batman" description={"A nonsense sentence has a logical, grammatical structure but no content or meaning. The second “sentence” is pure gibberish; it is a random collection of words with no logical or grammatical structure. "} />
+    </div >
   );
 }
 
