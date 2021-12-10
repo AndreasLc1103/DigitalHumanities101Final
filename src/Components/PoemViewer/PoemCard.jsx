@@ -1,4 +1,4 @@
-import { Card, CardTitle, CardSubtitle, CardBody, Button, Container , Row , Col} from "reactstrap";
+import { Card, CardTitle, CardSubtitle, CardBody, Button, Container, Row, Col } from "reactstrap";
 /**
  * PoemCard is a display component used to display the basic information surrounding
  * a specific poem.
@@ -6,7 +6,7 @@ import { Card, CardTitle, CardSubtitle, CardBody, Button, Container , Row , Col}
  * to display to the user. 
  * @returns None
  */
-const PoemCard = ({id, title, date}) => {
+const PoemCard = ({ id, title, date }) => {
 
     return (
         <>

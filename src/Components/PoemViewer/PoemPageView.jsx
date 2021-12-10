@@ -1,10 +1,10 @@
 import render from 'dom-serializer';
-import {Container, Col, Row, Nav } from 'reactstrap';
+import { Container, Col, Row, Nav } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import PoemCard from './PoemCard';
-const PoemPageView = ({PoemData}) => {
+const PoemPageView = ({ PoemData }) => {
 
-    
+
     return (<div>
         <Container>
             <Nav tabs> <Link to="/">Home </Link></Nav>
@@ -12,12 +12,12 @@ const PoemPageView = ({PoemData}) => {
             <Row>
                 <Col></Col>
                 <Col>
-                <ul>
-                    {PoemData.map((poem) => 
-                    <li>
-                        <PoemCard id={poem.id} title={poem.title} date={poem.date} descripton={poem.Container} />
-                    </li>)
-                    }
+                    <ul>
+                        {PoemData.map((poem) =>
+                            <li>
+                                <PoemCard id={poem.id} title={poem.title} date={poem.date} descripton={poem.Container} />
+                            </li>)
+                        }
                     </ul>
                 </Col>
                 <Col></Col>

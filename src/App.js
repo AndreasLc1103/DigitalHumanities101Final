@@ -4,12 +4,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import PoemCard from './Components/PoemViewer/PoemCard';
 import PoemPageView from './Components/PoemViewer/PoemPageView';
 import Poems from './Components/data/Poems.json';
+import { useState } from 'react';
 function App() {
-    const  [data, setData] = Poems;
+  const [data, setData] = useState([...Poems.library]);
 
   return (
     <div>
-      <PoemPageView PoemData={data}/>
+      <PoemPageView PoemData={data} />
     </div>
   );
 }
