@@ -1,30 +1,42 @@
 import render from 'dom-serializer';
-import { Container, Col, Row, Nav } from 'reactstrap';
+import { Container, Col, Row, Nav, ListGroup, Navbar, NavbarBrand, NavItem, NavLink } from 'reactstrap';
 import { Link } from 'react-router-dom';
 import PoemCard from './PoemCard';
 const PoemPageView = ({ PoemData }) => {
 
 
     return (<div>
-        <Container>
-            <Nav tabs> <Link to="/">Home </Link></Nav>
+        <Navbar
+            color="dark"
+            expand="lg"
+            dark
+        >
+            <NavbarBrand href="/">
+                Home
+            </NavbarBrand>
 
-            <Row>
-                <Col></Col>
-                <Col>
-                    <ul>
-                        {PoemData.map((poem) =>
-                            <li>
-                                <PoemCard id={poem.id} title={poem.title} date={poem.date} descripton={poem.Container} />
-                            </li>)
-                        }
-                    </ul>
-                </Col>
-                <Col></Col>
-            </Row>
+            <NavItem>
+                <NavLink>
+                    Hi
+                </NavLink>
+            </NavItem>
+
+        </Navbar>
+        <Container fluid>
+            <Col>
+                <ListGroup>
+
+                    {PoemData.map((poem) =>
+                        <li>
+                            <PoemCard id={poem.id} title={poem.title} date={poem.date} />
+                        </li>)
+                    }
+
+                </ListGroup>
+            </Col>
 
 
         </Container>
-    </div>)
+    </div >)
 }
 export default PoemPageView;

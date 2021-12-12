@@ -11,7 +11,7 @@ const PoemCard = ({ id, title, date }) => {
     return (
         <>
             <Card color="dark" body inverse>
-                <CardTitle tag="h3">
+                <CardTitle inverse tag="h3">
                     {title}
                 </CardTitle>
                 <div>
