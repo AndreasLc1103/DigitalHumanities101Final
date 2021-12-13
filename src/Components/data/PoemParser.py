@@ -10,18 +10,33 @@ def create_library(id, title):
 def format_data():
     output = []
     test_string = '\r\n'
-    with open('finalproject/digitalhumanities101final/src/Components/data/Poems.txt')as f:
+    id_counter  = 0
+    with open('src\Components\data\Poems.txt' , encoding="utf8")as f:
         data = f.readlines()
+        print(data)
+    
     for counter in range(0, len(data)):
         
         if len(output) == 0:
             output.append(create_library(counter , data[counter]))
         # this is to check if there is a paragraph
         try: 
-            if data[counter] == '\r\n' and data[counter + 1] == '\r\n' :
-                pass
-            if data[counter + 1 ] == '\r\n' and data[counter + 2] == '\r\n':
-                pass
+            print(data[counter])
+            if data[counter] == '\n':
+                print('he I made it')
+                
+                if data[counter + 1] == '\n':
+                    print("this is where the new poem is started")
+                    print(counter)
+                    create_libary(id_counter , data[counter])
+                    print(ouput)
+                    
+                elif data[counter + 1] == '\n' and data[counter+ 2] == '\n':
+                    print("this is where the new poem is started")
+                    counter += 3
+                    create_libary(id_counter , data[counter])
+                    print(ouput)
+                    
         except:
             print("no data")
 def main():

@@ -4,17 +4,24 @@ import './index.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SplashPage from './Components/Pages/SpashPage';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<App />} />
-      </Routes>
-    </BrowserRouter>
-  </React.StrictMode >,
-  document.getElementById('root')
-);
+    <React.StrictMode>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<SplashPage/>} />
+          <Route path="about"></Route>
+          <Route path="biography"></Route>
+          <Route path="home"></Route>
+          <Route path="missionstatement"></Route>
+          <Route path="*"></Route>
+        </Routes>
+      </BrowserRouter>
+    </React.StrictMode >,
+    document.getElementById('root')
+  );
+  
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
