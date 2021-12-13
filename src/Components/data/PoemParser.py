@@ -28,14 +28,14 @@ def format_data():
                 if data[counter + 1] == '\n':
                     print("this is where the new poem is started")
                     print(counter)
-                    create_libary(id_counter , data[counter])
-                    print(ouput)
+                    create_library(id_counter , data[counter])
+                    print(output)
                     
                 elif data[counter + 1] == '\n' and data[counter+ 2] == '\n':
                     print("this is where the new poem is started")
                     counter += 3
-                    create_libary(id_counter , data[counter])
-                    print(ouput)
+                    create_library(id_counter , data[counter])
+                    print(output)
                     
         except:
             print("no data")

@@ -1,14 +1,8 @@
-import render from "dom-serializer";
+
 import {
   Container,
   Col,
-  Row,
-  Nav,
   ListGroup,
-  Navbar,
-  NavbarBrand,
-  NavItem,
-  NavLink,
 } from "reactstrap";
 import { Link } from "react-router-dom";
 import PoemCard from "./PoemCard";
