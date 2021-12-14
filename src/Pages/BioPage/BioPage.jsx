@@ -19,22 +19,18 @@ const BioPage = () => {
                 <Row>
                     <Col>
                         <h6 className="fs-6 fw-light"> Born: February 18, 1934</h6>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
                         <h6 className="fs-6 fw-light">Died: November 17, 1992</h6>
                     </Col>
                 </Row>
 
                 <Row>
-                    <Col>
+                    <Col style={{
+                        display: "flex",
+                        flexDirection: "column",
+                        alignItems: "start",
+                        justifyContent: "center"
+                    }}>
                         <h2 className="fw-bold">About</h2>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col>
                         <p>
                             Audre Lorde referred to herself as “black, lesbian, mother, warrior, poet” and dedicated her life and her creativity to addressing the injustices of racism, homophobia, sexism, and classism.
 
@@ -44,25 +40,27 @@ const BioPage = () => {
 
                         </p>
                     </Col>
-                    <Col>
-                        <img src={LordeBioPage} style={{ width: "60%" }} alt="A black and white photo of Audre Lorde" />
+                    <Col lg={1}></Col>
+                    <Col lg={5} style={{
+                        display: "flex",
+                        alignItems: "start",
+                        justifyContent: "center"
+                    }}>
+                        <img src={LordeBioPage} style={{ width: "80%" }} alt="A black and white photo of Audre Lorde" />
 
                     </Col>
                 </Row>
 
+
                 <Row>
-                    <Col>
-                        <h2 className="fw-bold"> Writing</h2>
-                    </Col>
-                </Row>
-                <Row>
+                    <h2 className="fw-bold"> Writing</h2>
                     <Col style={{ fontStyle: "italic" }}>
                         I literally communicated through poetry.
                     </Col>
 
                 </Row>
                 <Row>
-                    <Col>
+                    <Col lg={6}>
                         <p>
                             Much of Lorde’s work has been an early articulation on the intersections of race, class, and gender, specifically seen in her essays, such as “The Master’s Tools Will Not Dismantle the Master’s House.”
 

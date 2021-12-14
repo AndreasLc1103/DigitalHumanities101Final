@@ -5,29 +5,29 @@ const AboutPage = () => {
 
     return (
         <div>
-            <Container fluid="sm">
+            <Container fluid="md" style={{ paddingLeft: '5rem' }}>
                 <Row>
                     <AudreNav style={{ marginBottom: "10rem" }}></AudreNav>
                 </Row>
                 <Row>
                     <h1 className="fs-1 fw-bold" style={{ marginBottom: "2rem" }}>About</h1>
                 </Row>
-                <Row className="text-center">
-                    <Col></Col>
+                <Row>
+
                     <Col>
                         <h2 className="">Mission Statement</h2>
                     </Col>
-                    <Col></Col>
+
                 </Row>
 
                 <Row style={{ marginBottom: "2rem" }}>
-                    <Col></Col>
-                    <Col xl={6}>
-                        <p className="text-center">Audre Lorde was an American writer, feminist, and civil rights activist (among many other things). She is best known for her powerful poetry that tackles injustices
+
+                    <Col lg={6}>
+                        <p>Audre Lorde was an American writer, feminist, and civil rights activist (among many other things). She is best known for her powerful poetry that tackles injustices
                             related to racism, homophobia, sexism, and classism.
                             Lorde does an exceptional job on connecting her personal
                             experiences with her political objectives. </p>
-                        <p className="text-center">Our goal is to create a digital space that focuses on Audre Lorde’s
+                        <p>Our goal is to create a digital space that focuses on Audre Lorde’s
                             poetry and her mission to intersect the queer experience and her
                             experience as a Black woman. Her work deserves to be attainable. </p>
                     </Col>
