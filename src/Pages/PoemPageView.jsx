@@ -5,7 +5,7 @@ import {
   ListGroup,
 } from "reactstrap";
 import { Link } from "react-router-dom";
-import PoemCard from "./PoemCard";
+import PoemCard from "../Components/PoemViewer/PoemCard";
 /**
  * PoemPageView is a component that is used to create a instance of a page view
  * this will allow the user to pass in a list of poem data objects.

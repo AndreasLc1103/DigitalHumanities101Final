@@ -1,15 +1,14 @@
 import { Container, Row } from "reactstrap"
-import AudreNav from "../../Components/AudreNav"
+import AudreNav from "../../Components/NavComponenet/AudreNav"
 const QuotesPage = ({ Quotes }) => {
 
     return (
         <div>
 
-            <Container>
-                <Row>
+            <Container fluid="true">
+                <Row style={{ marginBottom: "8rem" }}>
                     <AudreNav></AudreNav>
                 </Row>
-
                 <Row></Row>
             </Container>
 

@@ -1,7 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import PoemPageView from './Components/PoemViewer/PoemPageView';
+import PoemPageView from './Pages/PoemPageView';
 import Poems from './Components/data/Poems.json';
 import { useState } from 'react';
 function App() {

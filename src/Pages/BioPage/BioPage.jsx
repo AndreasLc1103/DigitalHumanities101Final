@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Card, CardImg } from "reactstrap";
-import AudreNav from "../../Components/AudreNav"
+import AudreNav from "../../Components/NavComponenet/AudreNav";
 import LordeBioPage from './LordeBioPage.jpg'
 const BioPage = () => {
 
