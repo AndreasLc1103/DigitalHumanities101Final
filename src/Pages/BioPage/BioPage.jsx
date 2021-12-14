@@ -45,8 +45,7 @@ const BioPage = () => {
                         </p>
                     </Col>
                     <Col>
-                        <Card>
-                            <CardImg alt="A black and white photo of Audre Lorde" src={LordeBioPage}></CardImg></Card>
+                        <img src={LordeBioPage} style={{ width: "60%" }} alt="A black and white photo of Audre Lorde" />
 
                     </Col>
                 </Row>

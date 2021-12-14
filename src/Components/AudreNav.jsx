@@ -13,6 +13,14 @@ const AudreNav = () => {
             <NavLink active href="biography">Biography</NavLink>
           </NavItem>
           <NavItem>
+            <NavLink active href="poems">
+              Poems
+            </NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink active href="quotes">
+              Quotes
+            </NavLink>
           </NavItem>
         </Nav>
       </Navbar>

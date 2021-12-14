@@ -11,9 +11,10 @@ const SplashPage = () => {
               <CardTitle tag="h1" size="xl" >Audre Lord</CardTitle>
               <ButtonGroup size="xl">
                 <Button href="/">Home</Button>
-                <Button href="poems">Poems</Button>
                 <Button href="about">About</Button>
-                <Button href="biography">Biograpy</Button>
+                <Button href="biography">Biography</Button>
+                <Button href="poems">Poems</Button>
+                <Button href="quotes">Quotes</Button>
               </ButtonGroup>
             </Card>
           </Col>

@@ -1,20 +1,18 @@
 import json
 
-
+file_name = "/Users/andreasleonard-calcano/Documents/School/Third-Year-2021-2022/DHSS-101/FinalProject/finalproject/digitalhumanities101final/src/Components/data/Poems.txt"
 
 
 def create_library(id, title):
-    my_dict  = dict(id = id , author= "", title=title, poemText="" , date= "")
+    my_dict = dict(id = id , author= "", title=title, poemText=[] , date= "")
     return my_dict
 
 def format_data():
     output = []
     test_string = '\r\n'
     id_counter  = 0
-    with open('src\Components\data\Poems.txt' , encoding="utf8")as f:
+    with open(file_name)as f:
         data = f.readlines()
-        print(data)
-    
     for counter in range(0, len(data)):
         
         if len(output) == 0:
@@ -22,21 +20,22 @@ def format_data():
         # this is to check if there is a paragraph
         try: 
             print(data[counter])
+            # checks if the readline hits a new line
             if data[counter] == '\n':
-                print('he I made it')
-                
-                if data[counter + 1] == '\n':
-                    print("this is where the new poem is started")
-                    print(counter)
-                    create_library(id_counter , data[counter])
-                    print(output)
-                    
+                print('-----Newline interacted-------')
+                # checks if there is a second one to add a new paragraph
+                if data[counter + 1] == '\n' and data[counter + 2] != '\n':
+                    print("new paragraph")  
+                    # checks to see if there is a new poem.  
                 elif data[counter + 1] == '\n' and data[counter+ 2] == '\n':
-                    print("this is where the new poem is started")
-                    counter += 3
-                    create_library(id_counter , data[counter])
-                    print(output)
-                    
+                   print("--------This is Where a new Poem starts----------")
+                   print(data[counter])
+            else:
+                len_of_data = len(output)- 1
+                poem_cursor = len(output[len_of_data]['poemText'])
+                output[len_of_data]['poemText'][poem_cursor] += data[counter] 
+                print(output[len_of_data]['poemText'][poem_cursor])  
+
         except:
             print("no data")
 def main():
