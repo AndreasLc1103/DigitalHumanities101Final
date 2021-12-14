@@ -4,7 +4,6 @@ import {
   Col,
   ListGroup,
 } from "reactstrap";
-import { Link } from "react-router-dom";
 import PoemCard from "../Components/PoemViewer/PoemCard";
 /**
  * PoemPageView is a component that is used to create a instance of a page view
