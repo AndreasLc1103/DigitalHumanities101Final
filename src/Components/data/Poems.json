@@ -1,0 +1,27 @@
+{
+    "Poems": "",
+    
+    "library": [{
+            "id": 0,
+            "author": "",
+            "title": "",
+            "poemText": "",
+            "date": ""
+        },
+        {
+            "id": 1,
+            "author": "Audre Lorde",
+            "title": "",
+            "poemText": "",
+            "date": ""
+        },
+        {
+            "id": 2,
+            "author": "Audre Lorde",
+            "title": "",
+            "poemText": "",
+            "date": ""
+        }
+    ]
+
+}
