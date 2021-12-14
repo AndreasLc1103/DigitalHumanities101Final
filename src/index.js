@@ -7,13 +7,14 @@ import reportWebVitals from './reportWebVitals';
 import SplashPage from './Pages/SplashPage/SpashPage';
 import BioPage from './Pages/BioPage/BioPage';
 import QuotesPage from './Pages/quotesPage/QuotesPage'
+import AboutPage from './Pages/about/AboutPage'
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<SplashPage />} />
-        <Route path="about"></Route>
+        <Route path="about" element={<AboutPage />}></Route>
         <Route path="biography" element={<BioPage />} />
         <Route path="home"></Route>
         <Route path="missionstatement" />
