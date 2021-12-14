@@ -11,7 +11,7 @@ const QuotesCard = ({ QuoteText }) => {
             >
                 <CardBody>
                     <CardText>
-                        <p className="text-lg-left font-weight-bold" >{QuoteText}</p>
+                        <p className="fs-5 fw-bold">{QuoteText}</p>
                     </CardText>
                 </CardBody>
             </Card>
