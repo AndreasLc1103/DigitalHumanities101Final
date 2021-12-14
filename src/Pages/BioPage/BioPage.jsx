@@ -6,7 +6,7 @@ const BioPage = () => {
 
     return (
 
-        <Container style={{ paddingLeft: "5rem" }}>
+        <Container style={{ paddingLeft: "5rem", paddingBottom: "1rem" }}>
             <Row>
                 <Col> <AudreNav></AudreNav></Col>
             </Row>
