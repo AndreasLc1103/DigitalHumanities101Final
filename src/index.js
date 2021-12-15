@@ -13,12 +13,12 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SplashPage />} />
-        <Route path="about" element={<AboutPage />}></Route>
-        <Route path="biography" element={<BioPage />} />
-        <Route path="home"></Route>
-        <Route path="missionstatement" />
-        <Route path="quotes" element={<QuotesPage />}></Route>
+        <Route path="/DigitalHumanities101Final/home" element={<SplashPage />} />
+        <Route path="/DigitalHumanities101Final/about" element={<AboutPage />}></Route>
+        <Route path="/DigitalHumanities101Final/biography" element={<BioPage />} />
+        <Route path="/DigitalHumanities101Final/home"></Route>
+        <Route path="/DigitalHumanities101Final/missionstatement" />
+        <Route path="/DigitalHumanities101Final/quotes" element={<QuotesPage />}></Route>
         <Route path="*"></Route>
       </Routes>
     </BrowserRouter>
