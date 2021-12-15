@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/DigitalHumanities101Final/static/css/main.77ec1294.chunk.css",
-    "main.js": "/DigitalHumanities101Final/static/js/main.42d3c88b.chunk.js",
-    "main.js.map": "/DigitalHumanities101Final/static/js/main.42d3c88b.chunk.js.map",
-    "runtime-main.js": "/DigitalHumanities101Final/static/js/runtime-main.77a6b9eb.js",
-    "runtime-main.js.map": "/DigitalHumanities101Final/static/js/runtime-main.77a6b9eb.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/DigitalHumanities101Final/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.ed91a730.chunk.js": "/DigitalHumanities101Final/static/js/2.ed91a730.chunk.js",
-    "static/js/2.ed91a730.chunk.js.map": "/DigitalHumanities101Final/static/js/2.ed91a730.chunk.js.map",
-    "static/js/3.05e3a782.chunk.js": "/DigitalHumanities101Final/static/js/3.05e3a782.chunk.js",
-    "static/js/3.05e3a782.chunk.js.map": "/DigitalHumanities101Final/static/js/3.05e3a782.chunk.js.map",
-    "index.html": "/DigitalHumanities101Final/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/DigitalHumanities101Final/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.77ec1294.chunk.css.map": "/DigitalHumanities101Final/static/css/main.77ec1294.chunk.css.map",
-    "static/js/2.ed91a730.chunk.js.LICENSE.txt": "/DigitalHumanities101Final/static/js/2.ed91a730.chunk.js.LICENSE.txt",
-    "static/media/LordeBioPage.63f32f6b.jpg": "/DigitalHumanities101Final/static/media/LordeBioPage.63f32f6b.jpg"
+    "main.css": "/DigitalHumanities101Final/home/static/css/main.77ec1294.chunk.css",
+    "main.js": "/DigitalHumanities101Final/home/static/js/main.d92e818b.chunk.js",
+    "main.js.map": "/DigitalHumanities101Final/home/static/js/main.d92e818b.chunk.js.map",
+    "runtime-main.js": "/DigitalHumanities101Final/home/static/js/runtime-main.0a86c9c3.js",
+    "runtime-main.js.map": "/DigitalHumanities101Final/home/static/js/runtime-main.0a86c9c3.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/DigitalHumanities101Final/home/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.ed91a730.chunk.js": "/DigitalHumanities101Final/home/static/js/2.ed91a730.chunk.js",
+    "static/js/2.ed91a730.chunk.js.map": "/DigitalHumanities101Final/home/static/js/2.ed91a730.chunk.js.map",
+    "static/js/3.05e3a782.chunk.js": "/DigitalHumanities101Final/home/static/js/3.05e3a782.chunk.js",
+    "static/js/3.05e3a782.chunk.js.map": "/DigitalHumanities101Final/home/static/js/3.05e3a782.chunk.js.map",
+    "index.html": "/DigitalHumanities101Final/home/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/DigitalHumanities101Final/home/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.77ec1294.chunk.css.map": "/DigitalHumanities101Final/home/static/css/main.77ec1294.chunk.css.map",
+    "static/js/2.ed91a730.chunk.js.LICENSE.txt": "/DigitalHumanities101Final/home/static/js/2.ed91a730.chunk.js.LICENSE.txt",
+    "static/media/LordeBioPage.63f32f6b.jpg": "/DigitalHumanities101Final/home/static/media/LordeBioPage.63f32f6b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.77a6b9eb.js",
+    "static/js/runtime-main.0a86c9c3.js",
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.ed91a730.chunk.js",
     "static/css/main.77ec1294.chunk.css",
-    "static/js/main.42d3c88b.chunk.js"
+    "static/js/main.d92e818b.chunk.js"
   ]
 }
