@@ -4,21 +4,21 @@ const AudreNav = () => {
   return (
     <div style={{ marginBottom: "5rem" }}>
       <Navbar color="dark" container="xl" dark expand fixed="top" light>
-        <NavbarBrand href="/">Audre Lorde</NavbarBrand>
+        <NavbarBrand href="/DigitalHumanities101Final/home">Power of Audre Lorde</NavbarBrand>
         <Nav className="me-auto" navbar>
           <NavItem>
-            <NavLink active href="about">About</NavLink>
+            <NavLink active href="/DigitalHumanities101Final/about">About</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink active href="biography">Biography</NavLink>
+            <NavLink active href="/DigitalHumanities101Final/biography">Biography</NavLink>
           </NavItem>
           <NavItem>
-            <NavLink active href="poems">
+            <NavLink active href="/DigitalHumanities101Final/poems">
               Poems
             </NavLink>
           </NavItem>
           <NavItem>
-            <NavLink active href="quotes">
+            <NavLink active href="/DigitalHumanities101Final/quotes">
               Quotes
             </NavLink>
           </NavItem>
