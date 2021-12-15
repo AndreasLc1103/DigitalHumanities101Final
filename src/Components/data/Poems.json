@@ -2,24 +2,8 @@
     "Poems": "",
     
     "library": [{
-            "id": 0,
-            "author": "",
-            "title": "",
-            "poemText": "",
-            "date": ""
-        },
-        {
-            "id": 1,
-            "author": "Audre Lorde",
-            "title": "",
-            "poemText": "",
-            "date": ""
-        },
-        {
-            "id": 2,
-            "author": "Audre Lorde",
-            "title": "",
-            "poemText": "",
+            "title": "A Litany for Survival",
+            "poemText": ["For those of us who live at the shoreline\nstanding upon the constant edges of decision\ncrucial and alone\nfor those of us who cannot indulge\nthe passing dreams of choice\nwho love in doorways coming and going\nin the hours between dawns\nlooking inward and outward\nat once before and after\nseeking a now that can breed\nfutures\nlike bread in our children's mouths\nso their dreams will not reflect\nthe death of ours:\n","For those of us\nwho were imprinted with fear\nlike a faint line in the center of our foreheads\nlearning to be afraid with our mother's milk\nfor by this weapon\nthis illusion of some safety to be found\nthe heavy-footed hoped to silence us\nFor all of us\nthis instant and this triumph\nWe were never meant to survive.\nAnd when the sun rises we are afraid\nit might not remain\nwhen the sun sets we are afraid \nit might not rise in the morning\nwhen our stomachs are full we are afraiof indigestion\nwhen our stomachs are empty we are afraid\nwe may never eat again\nwhen we are loved we are afraid\nlove will vanish\nwhen we are alone we are afraid\nlove will never return\nand when we speak we are afraid\nour words will not be heard\nnor welcomedbut when we are silent\n we are still afraid\n","So it is better to speak\nremembering\nwe were never meant to survive\n"],
             "date": ""
         }
     ]

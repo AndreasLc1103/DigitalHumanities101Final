@@ -8,6 +8,7 @@ import SplashPage from './Pages/SplashPage/SpashPage';
 import BioPage from './Pages/BioPage/BioPage';
 import QuotesPage from './Pages/quotesPage/QuotesPage'
 import AboutPage from './Pages/about/AboutPage'
+import PoemPageView from './Pages/PoemPageView';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,7 +18,7 @@ ReactDOM.render(
         <Route path="/DigitalHumanities101Final/about" element={<AboutPage />}></Route>
         <Route path="/DigitalHumanities101Final/biography" element={<BioPage />} />
         <Route path="/DigitalHumanities101Final/home"></Route>
-        <Route path="/DigitalHumanities101Final/missionstatement" />
+        <Route path="/DigitalHumanities101Final/poems" element={<PoemPageView />} />
         <Route path="/DigitalHumanities101Final/quotes" element={<QuotesPage />}></Route>
         <Route path="*"></Route>
       </Routes>
